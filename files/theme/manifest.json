@@ -1,0 +1,23 @@
+{
+    "responsive": true,
+    "tmpSocialIconFont": true,
+    "enableEditorJS": true,
+    "description": "Impact leads with beautiful imagery and gives your name or logo space to shine. With artfully designed headline sections, Impact creates stunning content blocks guaranteed to maximize visual interest.",
+    "features": [
+        "responsive",
+        "css-buttons",
+        "social-icons",
+        "full-width-header",
+        "navigation-center",
+        "color-palettes"
+    ],
+	"header-conversions": {
+        "user-id": "80949722",
+        "site-id": "912325668622431318",
+        "page-types": {
+            "tall-header": "949963689862076999",
+            "short-header": "467186504338976853",
+            "landing": "449561883850999925"
+        }
+    }
+}
