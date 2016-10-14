@@ -78,8 +78,19 @@ var STYLE_PREFIX = 'wsite';
 	})(window._W && _W.jQuery)
 //-->
 </script>
-		
-		<script type="text/javascript">var _swloc = (("https:" == document.location.protocol) ? "https://analytics." : "https://analytics.") + "sitewit.com/v3/1552925979/sw.js";var _swscript = document.createElement('script');('async' in document.scripts[0] ? _swscript.async = false : null);_swscript.src = _swloc;document.head.appendChild(_swscript);</script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-85682744-1', 'auto');
+ga('require', 'linkid');
+ga('send', 'pageview');
+</script>
+
 	</head>
 	<body class="no-header-page  wsite-page-index wsite-theme-light"><div class="wrapper">
 		<div class="header-wrap wsite-background wsite-custom-background">
@@ -340,19 +351,5 @@ var STYLE_PREFIX = 'wsite';
 	<script type="text/javascript" src="files/theme/mobile.js"></script>
 	<script type="text/javascript" src="files/theme/plugins.js"></script>
 	<script type="text/javascript" src="files/theme/custom.js"></script>
-
-
-		<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-85682744-1', 'auto');
-ga('require', 'linkid');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
 	</body>
 </html>
