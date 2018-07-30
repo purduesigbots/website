@@ -1,0 +1,184 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Purdue ACM SIGBots"
+theme = "hugo-stellar-theme"
+
+googleAnalytics = "" #put your google-analytics ID here
+
+[params]
+  [params.header]
+    title = "Purdue ACM SIGBots"
+    description = ''
+    image = "images/logo.svg"
+
+  [[params.navigation]]
+    name = "Introduction"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Achievements"
+    href = "#achievements"
+
+  [[params.navigation]]
+    name = "Sponsorship"
+    href = "#sponsorship"
+
+  [[params.navigation]]
+    name = "Events"
+    href = "#events"
+  
+  [[params.navigation]]
+    name = "Join"
+    href = "#join"
+
+  [params.intro]
+    title = "About Us"
+    description = "Purdue ACM SIGBots is Purdue University's VEX U robotics team. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past seven seasons&mdash; for those of you counting, that's every season since the club has been around!"
+    image = "images/bots2017.1.jpg"
+    #[[params.intro.action]]
+      #buttontext = "Learn More"
+      #href = "generic.html"
+
+
+  [[params.section]]
+    id = "achievements"
+    title = "Awards and Achievements"
+    description = ""
+    
+    # the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "2013/14 - Toss Up"
+        description = "The 2013-14 season was one with a heavy emphasis on electronics and software development. The [Watchdog Sensor](#) received a form factor upgrade and the [R.A.D.I.U.S. Array](#) was created. These developments earned the team another Innovate Award at the VEX U World Championships."
+        icon = "fa-battery-three-quarters"
+
+      [[params.section.feature]]
+        title = "2012/13 - Sack Attack"
+        description = "The 2012-13 season marked the first release of [PROS](https://github.com/purduesigbots/pros), along with a [\"hunting\" algorithm](#) and [visualization tool](#) for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "2011/12 - Gateway"
+        description = "The team placed second overall in the third annual VEX Robotics All-Star Challenge, earning the Tournament Finalist and Judges' Award trophies."
+        icon = "fa-cog"
+    [params.section.footer]
+      # can re-enable if/when we do anything more noteworthy...
+      enable = false
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "sponsorship"
+    title = "Our Sponsors"
+    description = "Purdue ACM SIGBots is incredibly grateful for the support of the following organizations, as we would be unable to continue providing the industry-like engineering and computer science experience to students without their generous financial support."
+
+    [params.section.statistics]
+      enable = true
+      [[params.section.statistic]]
+        icon = "cs-logo.png"
+        alt = "Purdue Department of Computer Science Logo"
+        #value = "5,120"
+        text = "Purdue Department of Computer Science"
+      [[params.section.statistic]]
+        icon = "acm-logo.png"
+        alt = "Association for Computing Machinery Logo"
+        #value = "8,192"
+        text = "Association for Computing Machinery"
+      #[[params.section.statistic]]
+        #icon = "fa-signal"
+        #value = "2,048"
+        #text = "Tempus"
+      #[[params.section.statistic]]
+        #icon = "fa-laptop"
+        #value = "4,096"
+        #text = "Aliquam"
+      #[[params.section.statistic]]
+        #icon = "fa-diamond"
+        #value = "1,024"
+        #text = "Nullam"
+
+    [params.section.content]
+      enable = false
+      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Become a sponsor"
+        buttonUrl = "generic.html"
+
+
+  [[params.section]]
+    id = "events"
+    title = "Events"
+    description = "Every year, we host a scrimmage in the Fall and a qualifying event in the Winter. <br /> Check out our upcoming events at</p><a style='border-bottom: none' href='https://www.robotevents.com/robot-competitions/college-competition?name=Purdue' target='_blank'><img src='https://www.robotevents.com/images/robotevents-logo.png'/></a><p>"
+    [params.section.footer]
+      enable = false
+      [[params.section.footer.action]]
+        buttontext = "Get Started"
+        buttonUrl = "generic.html"
+        customClass = "special"
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "join"
+    title = "Join Us"
+    description = "Purdue ACM SIGBots is always looking for additional members to contribute to the success of the team. So if you are a Purdue student, we would be thrilled to have you stop by a meeting or send us an email because there are a plethora of ways for you to get involved and gain some of the industry-like experience that robotics has to offer, regardless of your major."
+
+  [params.footer]
+    enable = true
+    title = "Contact Us"
+    description = "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481.13010463903646!2d-86.91663588020417!3d40.42683995249539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812e2b3ea0869c9%3A0xe75c6b7828bf42f8!2sFelix+Haas+Hall!5e1!3m2!1sen!2sus!4v1504298182909' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>"
+
+    second_title = ""
+    address = "Haas Hall, Room G064 <br/> 250 N. University St. <br/> West Lafayette, IN 47907 <br/> USA"
+    #phone = "(000) 000-0000 x 0000"
+    email = "sig.robotics.purdue@gmail.com"
+
+    #[[params.footer.action]]
+      #href = "generic.html"
+      #buttontext = "Learn More"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      #[[params.footer.social]]
+        #title = "Twitter"
+        #icon = "fa-twitter"
+        #link = "#"
+
+      #[[params.footer.social]]
+        #title = "Facebook"
+        #icon = "fa-facebook"
+        #link = "#"
+      
+      [[params.footer.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "https://github.com/purduesigbots"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "https://www.instagram.com/purduesigbots"
+
+      #[[params.footer.social]]
+        #title = "Dribbble"
+        #icon = "fa-dribbble"
+        #link = "#"
+
+      #[[params.footer.social]]
+        #title = "Email"
+        #icon = "fa-envelope"
+        #link = "#"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© Purdue ACM SIGBots. Design: [HTML5UP](//html5up.net). Adapted by [Alex Brooke](https://github.com/hotelcalifornia)."
