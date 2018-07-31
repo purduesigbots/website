@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseUrl = "https://example.org/"
 languageCode = "en-us"
 title = "Purdue ACM SIGBots"
 theme = "hugo-stellar-theme"
@@ -21,13 +21,17 @@ googleAnalytics = "" #put your google-analytics ID here
     href = "#achievements"
 
   [[params.navigation]]
+    name = "Projects"
+    href = "#projects"
+
+  [[params.navigation]]
     name = "Sponsorship"
     href = "#sponsorship"
 
   [[params.navigation]]
     name = "Events"
     href = "#events"
-  
+
   [[params.navigation]]
     name = "Join"
     href = "#join"
@@ -45,18 +49,18 @@ googleAnalytics = "" #put your google-analytics ID here
     id = "achievements"
     title = "Awards and Achievements"
     description = ""
-    
+
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
       [[params.section.feature]]
         title = "2013/14 - Toss Up"
-        description = "The 2013-14 season was one with a heavy emphasis on electronics and software development. The [Watchdog Sensor](#) received a form factor upgrade and the [R.A.D.I.U.S. Array](#) was created. These developments earned the team another Innovate Award at the VEX U World Championships."
+        description = "The 2013-14 season was one with a heavy emphasis on electronics and software development. The [Watchdog Sensor](project/watchdog) received a form factor upgrade and the [R.A.D.I.U.S. Array](project/radius) was created. These developments earned the team another Innovate Award at the VEX U World Championships."
         icon = "fa-battery-three-quarters"
 
       [[params.section.feature]]
         title = "2012/13 - Sack Attack"
-        description = "The 2012-13 season marked the first release of [PROS](https://github.com/purduesigbots/pros), along with a [\"hunting\" algorithm](#) and [visualization tool](#) for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
+        description = "The 2012-13 season marked the first release of [PROS](project/pros), along with a [\"hunting\" algorithm](#) and [visualization tool](#) for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
         icon = "fa-code"
 
       [[params.section.feature]]
@@ -69,6 +73,17 @@ googleAnalytics = "" #put your google-analytics ID here
       [[params.section.footer.action]]
         buttontext = "Learn More"
         buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "projects"
+    title = "Our Projects"
+    description = "As a part of and in addition to competing in the VEX U Robotics Competition, Purdue ACM SIGBots works on some cool engineering and software projects."
+
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Learn more"
+        buttonUrl = "project"
 
   [[params.section]]
     id = "sponsorship"
@@ -157,7 +172,7 @@ googleAnalytics = "" #put your google-analytics ID here
         #title = "Facebook"
         #icon = "fa-facebook"
         #link = "#"
-      
+
       [[params.footer.social]]
         title = "GitHub"
         icon = "fa-github"
@@ -181,4 +196,4 @@ googleAnalytics = "" #put your google-analytics ID here
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Purdue ACM SIGBots. Design: [HTML5UP](//html5up.net). Adapted by [Alex Brooke](https://github.com/hotelcalifornia)."
+      text = "© Purdue ACM SIGBots. Design: [HTML5UP](//html5up.net). Adapted by [Alex Brooke](https://github.com/hotelcalifornia) from the [Hugo port](https://github.com/antonpolishko/hugo-stellar-theme)"
