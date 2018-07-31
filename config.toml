@@ -76,8 +76,8 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "projects"
-    title = "Our Projects"
-    description = "As a part of and in addition to competing in the VEX U Robotics Competition, Purdue ACM SIGBots works on some cool engineering and software projects."
+    title = "Projects"
+    description = "As a part of and in addition to competing in the VEX U Robotics Competition, Purdue ACM SIGBots works on some cool engineering and software projects, ranging from custom sensors to an operating system for robots."
 
     [params.section.footer]
       enable = true
