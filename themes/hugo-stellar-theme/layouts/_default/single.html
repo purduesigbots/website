@@ -1,0 +1,44 @@
+{{ define "main" }}
+  <header id="header">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.desc }}</p>
+  </header>
+  <div id="main">
+    <section id="content" class="main">
+      <span class="image main">
+        <img src="{{ .Params.img }}" alt="{{ .Params.img_desc }}" />
+      </span>
+      {{ .Content }}
+      <hr />
+      <div style="text-align:center; width: 100%; display: flex; justify-content: space-around; align-content: start;">
+        {{ $list := (.Site.RegularPages.ByParam "order").Reverse }}
+        {{ $pg := . }}
+        {{ range $index, $element := $list }}
+          {{ if eq $element.Title $pg.Title }}
+            {{ $idx := add -1 $index }}
+            {{ $pg := index $list $idx }}
+            {{ if ge $idx 0 }}
+              <a href="{{ $pg.Permalink }}"><span class="fa fa-backward"></span> &nbsp; {{ $pg.Title }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <a href="/project">All projects</a>
+        {{ $pg := . }}
+        {{ range $index, $element := $list }}
+          {{ if eq $element.Title $pg.Title }}
+            {{ $idx := add 1 $index }}
+            {{ $pg := index $list $idx }}
+            {{ if lt $idx (len $list) }}
+              <a href="{{ $pg.Permalink }}">{{ $pg.Title }} &nbsp; <span class="fa fa-forward"></span></a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <footer class="major">
+        <ul class="actions">
+          <li><a class="button" href="/"><span class="fa fa-home"></span> Back to front page</a></li>
+        </ul>
+      </footer>
+    </section>
+  </div>
+{{ end }}

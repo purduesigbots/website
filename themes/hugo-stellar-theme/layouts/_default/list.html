@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <header id="header">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.desc }}</p>
+  </header>
+  <div id="main">
+    <section id="content" class="main">
+      {{ range (.Pages.ByParam "order").Reverse }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }} &mdash; {{ .Params.desc }}</a>
+        </li>
+      {{ end }}
+      <a href="/"><span class="fa fa-home"></span> Back to front page</a>
+    </section>
+  </div>
+{{ end }}
