@@ -1,7 +1,7 @@
 ---
 title: "R.A.D.I.U.S. Array"
 desc: "Reflectance and Analog Data Interpretation Unified Sensor Array"
-img: "/images/pic04.jpg"
+img: "/images/radius.jpg"
 img_desc: "top view of the R.A.D.I.U.S. Array board"
 order: 3
 ---
