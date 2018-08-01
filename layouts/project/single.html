@@ -6,7 +6,7 @@
   <div id="main">
     <section id="content" class="main">
       <span class="image main">
-        <img src="{{ .Params.img }}" alt="{{ .Params.img_desc }}" />
+          <img src="{{ .Params.img | relURL }}" alt="{{ .Params.img_desc }}" />
       </span>
       {{ .Content }}
       <hr />
@@ -36,7 +36,7 @@
       </div>
       <footer class="major">
         <ul class="actions">
-          <li><a class="button" href="/"><span class="fa fa-home"></span> Back to front page</a></li>
+          <li><a class="button" href="{{ .Site.Home.Permalink }}"><span class="fa fa-home"></span> Back to front page</a></li>
         </ul>
       </footer>
     </section>
