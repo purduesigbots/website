@@ -10,7 +10,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.header]
     title = "Purdue ACM SIGBots"
     description = ''
-    image = "images/logo.svg"
+    image = "images/sigbots_icon.svg"
 
   [[params.navigation]]
     name = "Introduction"

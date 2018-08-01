@@ -1,0 +1,101 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 98.73 92.2">
+  <defs>
+    <style>
+      .cls-1 { fill:url(#linear-gradient); }
+      .cls-2 { fill:url(#linear-gradient-2); }
+      .cls-3 { fill:url(#linear-gradient-3); }
+      .cls-4 { fill:url(#linear-gradient-4); }
+      .cls-5 { fill:url(#linear-gradient-5); }
+      .cls-6 { fill:url(#linear-gradient-6); }
+      .cls-7 { fill:url(#linear-gradient-7); }
+      .cls-8 { fill:url(#linear-gradient-8); }
+      .cls-9 { fill:url(#linear-gradient-9); }
+      .cls-10 { fill:url(#linear-gradient-10); }
+      .cls-11 { fill:url(#linear-gradient-11); }
+      .cls-12 { fill:url(#linear-gradient-12); }
+      .cls-13 { fill:url(#linear-gradient-13); }
+      .cls-14 { fill:url(#linear-gradient-14); }
+      .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26 {
+        stroke:#fbb040;
+        stroke-miterlimit:10;
+        stroke-width:0.25px;
+      }
+      .cls-15 { fill:url(#linear-gradient-17); }
+      .cls-16 { fill:url(#linear-gradient-18); }
+      .cls-17 { fill:url(#linear-gradient-19); }
+      .cls-18 { fill:url(#linear-gradient-20); }
+      .cls-19 { fill:url(#linear-gradient-21); }
+      .cls-20 { fill:url(#linear-gradient-22); }
+      .cls-21 { fill:url(#linear-gradient-23); }
+      .cls-22 { fill:url(#linear-gradient-25); }
+      .cls-23 { fill:url(#linear-gradient-26); }
+      .cls-24 { fill:url(#linear-gradient-27); }
+      .cls-25 { fill:url(#linear-gradient-28); }
+      .cls-26 { fill:url(#linear-gradient-29); }
+      .cls-27 { fill:#000; }
+    </style>
+    <linearGradient id="linear-gradient" x1="37.43" y1="17.39" x2="49.37" y2="17.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f47b20"/>
+      <stop offset="0.29" stop-color="#f78f2c"/>
+      <stop offset="0.73" stop-color="#faa73b"/>
+      <stop offset="1" stop-color="#fbb040"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="31.13" y1="35.88" x2="49.37" y2="35.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="49.37" y1="17.39" x2="64.95" y2="17.39" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="17.16" y1="23.23" x2="37.41" y2="23.23" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="34.48" y1="22.32" x2="49.37" y2="22.32" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="64.95" y1="17.39" x2="80.52" y2="17.39" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="49.37" y1="22.43" x2="80.52" y2="22.43" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="74.57" y1="27.79" x2="98.38" y2="27.79" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="37.41" y1="15.63" x2="37.43" y2="15.63" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="17.16" y1="36.65" x2="34.48" y2="36.65" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="75.72" y1="6.13" x2="98.2" y2="6.13" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="49.37" y1="12.34" x2="80.52" y2="12.34" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="31.13" y1="44.29" x2="31.13" y2="44.29" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="14.89" y1="57.24" x2="14.89" y2="57.24" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-17" x1="13.66" y1="87.87" x2="98.38" y2="87.87" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-18" x1="56.49" y1="70.95" x2="59.55" y2="70.95" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-19" x1="31.13" y1="50.76" x2="44.55" y2="50.76" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-20" x1="31.13" y1="64.47" x2="57.99" y2="64.47" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-21" x1="14.89" y1="50.76" x2="31.13" y2="50.76" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-22" x1="0.36" y1="50.76" x2="16" y2="50.76" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-23" x1="0.36" y1="37.55" x2="17.16" y2="37.55" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-25" x1="14.89" y1="70.45" x2="44.55" y2="70.45" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-26" x1="31.13" y1="64.55" x2="44.5" y2="64.55" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-27" x1="44.55" y1="77.69" x2="71.95" y2="77.69" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-28" x1="16" y1="37.55" x2="31.13" y2="37.55" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-29" x1="44.5" y1="77.69" x2="56.49" y2="77.69" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>sigbots_icon</title>
+  <polygon class="cls-1" points="49.37 7.29 48.57 7.29 37.44 15.63 49.37 27.48 49.37 7.29"/>
+  <polygon class="cls-2" points="34.48 29.01 31.13 44.28 49.37 27.48 37.42 28.71 34.48 29.01"/>
+  <polygon class="cls-3" points="64.94 17.39 49.37 7.29 49.37 27.48 64.94 17.39"/>
+  <polygon class="cls-4" points="37.41 15.65 17.16 30.81 34.48 29.01 37.41 15.65"/>
+  <polygon class="cls-5" points="37.42 28.71 49.37 27.48 37.44 15.63 37.41 15.65 34.48 29.01 37.42 28.71"/>
+  <polygon class="cls-6" points="64.94 17.39 80.52 27.48 80.52 22.41 80.52 12.25 80.52 7.29 64.94 17.39"/>
+  <polygon class="cls-7" points="64.94 17.39 49.37 27.48 74.57 27.48 80.52 27.48 64.94 17.39"/>
+  <polygon class="cls-8" points="74.57 27.48 88.41 33.18 98.38 33.18 98.38 27.48 88.66 27.48 80.52 22.41 80.52 27.48 74.57 27.48"/>
+  <polygon class="cls-9" points="37.42 15.61 37.41 15.65 37.44 15.63 37.42 15.61"/>
+  <polygon class="cls-10" points="31.13 44.28 34.48 29.01 17.16 30.81 31.13 44.28 31.13 44.28"/>
+  <polygon class="cls-11" points="80.52 12.25 88.75 5.43 98.2 5.43 98.2 0 87.7 0 75.72 7.29 80.52 7.29 80.52 12.25"/>
+  <polygon class="cls-12" points="80.52 7.29 75.72 7.29 75.62 7.35 75.72 7.29 49.37 7.29 64.94 17.39 80.52 7.29"/>
+  <polygon class="cls-13" points="31.13 44.28 31.13 44.28 31.13 44.28 31.13 44.28"/>
+  <polygon class="cls-14" points="14.89 57.24 14.89 57.24 14.89 57.24 14.89 57.24"/>
+  <polygon class="cls-14" points="14.89 57.24 14.89 57.24 14.89 57.24 14.89 57.24"/>
+  <polygon class="cls-13" points="31.13 44.28 31.13 44.28 31.13 44.28 31.13 44.28"/>
+  <polygon class="cls-15" points="44.55 83.67 13.66 83.67 22.59 92.07 98.38 92.07 87.88 83.67 72.12 83.67 71.95 83.67 57.24 83.67 44.55 83.67"/>
+  <polygon class="cls-16" points="59.55 71.71 57.99 70.2 56.49 71.71 59.55 71.71"/>
+  <polygon class="cls-17" points="44.55 57.24 31.13 44.28 31.13 57.24 44.55 57.24"/>
+  <polygon class="cls-18" points="31.13 71.71 44.44 57.39 44.5 71.71 56.49 71.71 57.99 70.2 44.55 57.24 31.13 57.24 31.13 71.71"/>
+  <polygon class="cls-19" points="14.89 57.24 14.89 57.24 31.13 57.24 31.13 44.28 31.13 44.28 14.89 57.24"/>
+  <polygon class="cls-20" points="0.36 44.28 14.89 57.24 16 44.28 0.36 44.28"/>
+  <polygon class="cls-21" points="17.16 30.81 0.36 44.28 16 44.28 17.16 30.81"/>
+  <polygon class="cls-19" points="31.13 44.28 31.13 44.28 16 44.28 14.89 57.24 14.89 57.24 31.13 44.28"/>
+  <polygon class="cls-22" points="31.13 71.71 31.13 57.24 14.89 57.24 44.55 83.67 44.5 71.71 31.13 71.71"/>
+  <polygon class="cls-23" points="44.44 57.39 31.13 71.71 44.5 71.71 44.44 57.39"/>
+  <polygon class="cls-24" points="44.55 83.67 57.24 83.67 71.95 83.67 59.55 71.71 56.49 71.71 44.55 83.67"/>
+  <polygon class="cls-25" points="31.13 44.28 17.16 30.81 16 44.28 31.13 44.28"/>
+  <polygon class="cls-26" points="44.5 71.71 44.55 83.67 56.49 71.71 44.5 71.71"/>
+  <path class="cls-27" d="M22.75,44a6.34,6.34,0,1,1-6.34-6.33A6.34,6.34,0,0,1,22.75,44Z" transform="translate(0)"/>
+  <path class="cls-27" d="M56.11,18.19a6.34,6.34,0,1,1-6.33-6.34A6.33,6.33,0,0,1,56.11,18.19Z" transform="translate(0)"/>
+</svg>
