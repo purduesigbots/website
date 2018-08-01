@@ -6,7 +6,7 @@ img_desc: "top view of the R.A.D.I.U.S. Array board"
 order: 3
 ---
 
-<iframe width="100%" height="461" src="https://www.youtube.com/embed/WLyXgygtGUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="461" src="https://www.youtube.com/embed/WLyXgygtGUg?start=21&end=52" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Overview
 The SIGBots R.A.D.I.U.S. Array is a sophisticated line tracking sensor with capabilities exceeding those of the VEX Line Tracker. By combining 32 sensors and on-board processing, the array enables fast and accurate line tracking in a variety of conditions.

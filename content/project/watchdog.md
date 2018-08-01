@@ -6,6 +6,8 @@ img_desc: "image alt text"
 order: 2
 ---
 
+<iframe width="100%" height="461" src="https://www.youtube.com/embed/WLyXgygtGUg?start=0&end=20" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Overview
 Project Watchdog represents an effort to monitor the dynamic power consumption of VEX Motors during testing an matches using a linear Hall-effect current sensor. It is designed to monitor motors to detect excessive load and to ensure motors do not stall out.
 
