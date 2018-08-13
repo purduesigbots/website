@@ -2,7 +2,7 @@
 title: "Project Watchdog"
 desc: "Monitor current consumption and detect motor stalls"
 img: "/images/watchdog-data.png"
-img_desc: "image alt text"
+img_desc: "Graph of data collected from the watchdog sensor"
 order: 2
 ---
 

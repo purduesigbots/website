@@ -1,5 +1,5 @@
 # Site settings
-baseUrl = "https://example.org/"
+baseUrl = "http://purduesigbots.com/"
 languageCode = "en-us"
 title = "Purdue ACM SIGBots"
 theme = "hugo-stellar-theme"
@@ -79,6 +79,16 @@ googleAnalytics = "" #put your google-analytics ID here
     title = "Projects"
     description = "As a part of and in addition to competing in the VEX U Robotics Competition, Purdue ACM SIGBots works on some cool engineering and software projects, ranging from custom sensors to an operating system for robots."
 
+    [[params.section.feature]]
+      title = "[R.A.D.I.U.S. Array](project/radius)"
+      description = "Reflectance and Analog Data Interpretation Unified Sensor Array"
+    [[params.section.feature]]
+      title = "[Project Watchdog](project/watchdog)"
+      description = "Monitor current consumption and detect motor stalls"
+    [[params.section.feature]]
+      title = "[PROS](project/pros)"
+      description = "Open source C/C++ development for VEX Robotics"
+
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
@@ -122,8 +132,8 @@ googleAnalytics = "" #put your google-analytics ID here
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Become a sponsor"
-        buttonUrl = "generic.html"
+        buttontext = "Become a Purdue ACM sponsor"
+        buttonUrl = "https://acm.cs.purdue.edu"
 
 
   [[params.section]]

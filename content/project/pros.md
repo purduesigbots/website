@@ -1,6 +1,6 @@
 ---
 title: "PROS"
-desc: "Open source C/C++ development for VEX"
+desc: "Open source C/C++ development for VEX Robotics"
 img: "/images/pros.gif"
 img_desc: "animated GIF showing a user writing code using the PROS environment"
 order: 1
