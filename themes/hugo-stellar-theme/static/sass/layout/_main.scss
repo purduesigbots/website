@@ -21,8 +21,8 @@
 			> .image.main:first-child {
 				margin: -5em 0 5em -5em;
 				width: calc(100% + 10em);
-				border-top-right-radius: _size(border-radius-main);
-				border-top-left-radius: _size(border-radius-main);
+				border-top-right-radius: 0; 
+				border-top-left-radius: 0;
 				border-bottom-right-radius: 0;
 				border-bottom-left-radius: 0;
 
