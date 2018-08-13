@@ -72,7 +72,7 @@
                       <ul class="actions">
                         {{range $button := $section.footer.action }}
                           <li>
-                            <a href="{{ $button.buttonUrl }}" class="button {{ $button.customClass }}">{{ $button.buttontext }}</a>
+                              <a href="{{ $button.buttonUrl }}" target="{{ if isset $button "buttonTarget" }}{{ $button.buttonTarget }}{{ else }}_self{{ end }}" class="button {{ $button.customClass }}">{{ $button.buttontext }}</a>
                           </li>
                         {{ end }}
                       </ul>

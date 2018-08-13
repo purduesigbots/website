@@ -10,7 +10,7 @@
           <a href="{{ .Permalink }}">{{ .Title }} &mdash; {{ .Params.desc }}</a>
         </li>
       {{ end }}
-      <a href="/"><span class="fa fa-home"></span> Back to front page</a>
+      <a href="{{ .Site.Home.Permalink }}"><span class="fa fa-home"></span> Back to front page</a>
     </section>
   </div>
 {{ end }}

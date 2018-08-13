@@ -22,7 +22,7 @@
             {{ end }}
           {{ end }}
         {{ end }}
-        <a href="/project">All projects</a>
+        <a href="{{ .Site.Home.Permalink }}project">All projects</a>
         {{ $pg := . }}
         {{ range $index, $element := $list }}
           {{ if eq $element.Title $pg.Title }}

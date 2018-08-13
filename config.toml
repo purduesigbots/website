@@ -78,16 +78,20 @@ googleAnalytics = "" #put your google-analytics ID here
     id = "projects"
     title = "Projects"
     description = "As a part of and in addition to competing in the VEX U Robotics Competition, Purdue ACM SIGBots works on some cool engineering and software projects, ranging from custom sensors to an operating system for robots."
-
-    [[params.section.feature]]
-      title = "[R.A.D.I.U.S. Array](project/radius)"
-      description = "Reflectance and Analog Data Interpretation Unified Sensor Array"
-    [[params.section.feature]]
-      title = "[Project Watchdog](project/watchdog)"
-      description = "Monitor current consumption and detect motor stalls"
-    [[params.section.feature]]
-      title = "[PROS](project/pros)"
-      description = "Open source C/C++ development for VEX Robotics"
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "R.A.D.I.U.S. Array"
+        description = "[Reflectance and Analog Data Interpretation Unified Sensor Array](project/radius)"
+        icon = "fa-eye"
+      [[params.section.feature]]
+        title = "Project Watchdog"
+        description = "[Monitor current consumption and detect motor stalls](project/watchdog)"
+        icon = "fa-user-secret"
+      [[params.section.feature]]
+        title = "PROS"
+        description = "[Open source C/C++ development for VEX Robotics](project/pros)"
+        icon = "fa-rocket"
 
     [params.section.footer]
       enable = true
@@ -133,7 +137,8 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.footer.action]]
         buttontext = "Become a Purdue ACM sponsor"
-        buttonUrl = "https://acm.cs.purdue.edu"
+        buttonUrl = "https://acm.cs.purdue.edu/#sponsors"
+        buttonTarget = "_blank"
 
 
   [[params.section]]
