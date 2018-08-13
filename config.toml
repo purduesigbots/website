@@ -6,6 +6,9 @@ theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
   [params.header]
     title = "Purdue ACM SIGBots"
@@ -55,12 +58,12 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.feature]]
         title = "2013/14 - Toss Up"
-        description = "The 2013-14 season was one with a heavy emphasis on electronics and software development. The [Watchdog Sensor](project/watchdog) received a form factor upgrade and the [R.A.D.I.U.S. Array](project/radius) was created. These developments earned the team another Innovate Award at the VEX U World Championships."
+        description = "The 2013-14 season was one with a heavy emphasis on electronics and software development. The [Watchdog Sensor](./project/watchdog) received a form factor upgrade and the [R.A.D.I.U.S. Array](./project/radius) was created. These developments earned the team another Innovate Award at the VEX U World Championships."
         icon = "fa-battery-three-quarters"
 
       [[params.section.feature]]
         title = "2012/13 - Sack Attack"
-        description = "The 2012-13 season marked the first release of [PROS](project/pros), along with a [\"hunting\" algorithm](#) and [visualization tool](#) for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
+        description = "The 2012-13 season marked the first release of [PROS](./project/pros), along with a [\"hunting\" algorithm](#) and [visualization tool](#) for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
         icon = "fa-code"
 
       [[params.section.feature]]
@@ -82,15 +85,15 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.feature]]
         title = "R.A.D.I.U.S. Array"
-        description = "[Reflectance and Analog Data Interpretation Unified Sensor Array](project/radius)"
+        description = "[Reflectance and Analog Data Interpretation Unified Sensor Array](./project/radius)"
         icon = "fa-eye"
       [[params.section.feature]]
         title = "Project Watchdog"
-        description = "[Monitor current consumption and detect motor stalls](project/watchdog)"
+        description = "[Monitor current consumption and detect motor stalls](./project/watchdog)"
         icon = "fa-user-secret"
       [[params.section.feature]]
         title = "PROS"
-        description = "[Open source C/C++ development for VEX Robotics](project/pros)"
+        description = "[Open source C/C++ development for VEX Robotics](./project/pros)"
         icon = "fa-rocket"
 
     [params.section.footer]
