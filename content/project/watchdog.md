@@ -33,8 +33,8 @@ The [ACS712 Hall-effect sensing chip](https://www.allegromicro.com/en/Products/C
 
 As some questions were raised surrounding the electrical isolation of the previous version of the Watchdog PCB, the project underwent a full redesign. The overarching goal of this redesign effort was to end up with dynamic power consumption monitoring capabilities that were unambiguously isolated from the motor control signals. To this end, the new board was built around the [LEM LSTR 6-NP Current Transducer](https://www.digikey.com/product-detail/en/lem-usa-inc/LTSR-6-NP/398-1021-5-ND/1026512) such that motor controller wires could pass through the sensor without going through the PCB itself. The board was also redesigned in such a way that it could be connected directly to a VEX Cortex Microcontroller, reducing the complexity of integrating the sensor into a robot. The final board functioned in much the same way as the previous iteration, and code was written to interpret raw analog values from the sensor and filter them.
 
-![Close up view of Project Watchdog PCB](images/watchdog_v2_detail.jpg)
-![Wide shot of two Project Watchdog PCBs](images/watchdog_v2_wide.jpg)
+<img src="../../images/watchdog_v2_detail.jpg" alt="Close up view of Project Watchdog PCB" style="width: 48%" />
+<img src="../../images/watchdog_v2_wide.jpg" alt-"Wide shot of two Project Watchdog PCBs" style="width: 48%" />
 
 #### Improvements
 - Sensing is -6A to 6A
