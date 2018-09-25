@@ -1,8 +1,8 @@
 ---
 title: "libblrs"
 desc: "Helpful utilities for making the most of PROS"
-img: "/images/libblrs-2.jpg"
-img_desc: "Our fearless (former) leader"
+img: "/images/libblrs.png"
+img_desc: "libBLRS logo"
 order: 0
 ---
 
