@@ -42,7 +42,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.intro]
     title = "About Us"
     description = "Purdue ACM SIGBots is Purdue University's VEX U robotics team. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past seven seasons&mdash; for those of you counting, that's every season since the club has been around!"
-    image = "images/bots2017.1.jpg"
+    image = "images/QualifierTeamPicCropped.jpg"
     #[[params.intro.action]]
       #buttontext = "Learn More"
       #href = "generic.html"
