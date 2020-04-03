@@ -1,0 +1,211 @@
+########################## hero area ##########################
+hero:
+  title : "Purdue SIGBots"
+
+  # animated text loop
+  occupations:
+    - "VEX U Team"
+    - "Robotics"
+    - "Software"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "Learn More"
+    link : "#about"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "Purdue"
+  last_name : "SIGBOTS"
+
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "KNOW MORE <br> ABOUT US"
+  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2012. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past seven seasons&mdash; for those of you counting, that's every season since the club has been around!"
+  # button
+  button:
+    enable : false
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Tower Takeover"
+      company : ""
+      duration : "2019-2020"
+      content : "Heavy emphasis on mechanics with a strategy solely focused on have the game won by then end of the autonomous period. We won every qualifier we went to, and qualified 10 times for the World Championships. Sadly, the World Championships this year was cancelled due to the outbreak of COVID 19, ending our season short."
+
+    # experience item loop
+    - name : "Turning Point"
+      company : ""
+      duration : "2018-2019"
+      content : "This season ended up truly being, creating a simple concept and optimizing it to its full potential. Our team took a non meta approach to the season leaving the bulk of our scoring ability in one of our robots. such paid off as we won every qualifier we attended, qualifying for the  worlds championships 8 times. At the  worlds championships BLRS worked it way up to being the undefeated 1 seed in the Design division, later to be knocked out in the semi finals"
+
+    # experience item loop
+    - name : "In The Zone"
+      company : ""
+      duration : "2017-2018"
+      content : "Having 1 robot per team, SIGBots were able to feild both BLRS and BLRS1 this season. Although The Approach of having a veteran team and a new member team did not prove to be beneficial to BLRS1. Using a subpar off meta design BLRS was able to qualify for worlds and ended up  externally stacking there way to the #13 seed at worlds marking the first time BLRS has made eliminations at the World Championship"
+
+    # experience item loop
+    - name : "Starstruck"
+      company : ""
+      duration : "2016-2017"
+      content : "The SIGBots team grew significantly in Starstruck and a second team, BLRZ, was created. The highlight of the season was the BLRS vs. BLRZ finals match at the Purdue Qualifier. BLRZ qualified to worlds after winning the tournament but unfortunately BLRS was 6th in global skills, the highest rank to not get a worlds invite."
+
+    # experience item loop
+    - name : "Nothing But Net"
+      company : ""
+      duration : "2015-2016"
+      content : "Nothing But Net was the first season with Lloyd, our hardworking 3D printer. This opened up a new set of possibilities for mechanical designs and made the custom gearboxes and flywheels on the robots possible."
+
+    # experience item loop
+    - name : "Skyrise"
+      company : ""
+      duration : "2014-2015"
+      content: "The crowning achievement from Skyrise was the development of Four Is, a custom sensor designed to communicate between the two robots through Infrared light. Four Is allowed the two robots to talk and coordinate during the autonomous period."
+
+    # experience item loop
+    - name : "Toss Up"
+      company : ""
+      duration : "2013-2014"
+      content : "The 2013-14 season was one with a heavy emphasis on electronics and software development. The Watchdog Sensor received a form factor upgrade and the R.A.D.I.U.S. Array was created. These developments earned the team another Innovate Award at the VEX U World Championships"
+
+    # experience item loop
+    - name : "Sack Attack"
+      company : ""
+      duration : "2012-2013"
+      content : "The 2012-13 season marked the first release of PROS, along with a “hunting” algorithm and visualization tool for autonomous programming. These innovations earned the team the prestigious Innovation Award and a second place finish in the programming skills section of the VEX College Challenge World Championships."
+
+    # experience item loop
+    - name : "Gateway"
+      company : ""
+      duration : "2011-2012"
+      content : "The team placed second overall in the third annual VEX Robotics All-Star Challenge, earning the Tournament Finalist and Judges’ Award trophies."
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "DEMOGRAPHICS"
+  skill_list:
+    # skill item loop
+    - name : "Engineering Majors"
+      parcentage : "30%"
+
+    # skill item loop
+    - name : "Polytechnic Majors"
+      parcentage : "30%"
+
+    # skill item loop
+    - name : "Computer Science Majors"
+      parcentage : "20%"
+
+    # skill item loop
+    - name : "Other Major"
+      parcentage : "20%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "ACHIEVEMENTS"
+  service_list:
+    # service item loop
+    - name : "Creator of PROS"
+      image : "images/icons/web-development.png"
+
+    # service item loop
+    - name : "8 Years Old"
+      image : "images/icons/dbms.png"
+
+    # service item loop
+    - name : "Hosts Largest VEXU Event in the World"
+      image : "images/icons/marketing.png"
+
+    # service item loop
+    - name : "VEX Robotics World Championship Awards: 2019 Create, 2014 Innovate, 2013 innovate, 2013 Programming Skills"
+      image : "images/icons/software-development.png"
+
+    # service item loop
+    - name : ""
+      image : ""
+
+    # service item loop
+    - name : "Never lost an event, that was not at Purdue or the World Championship"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : false
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : false
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PROJECTS"
+  portfolio_list:
+
+  # portfolio item loop
+  - name : "PROS Open source C/C++ <br> develo <br> -pment for VEX Robots"
+    image : "images/portfolio/item1.png"
+    date : "Jan 2014"
+    category : "Software"
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "Our Sponsors"
+  testimonial_slider:
+    # slider item loop
+    - name : "Purdue Department of Computer Science"
+      image : "images/clients/client1.jpg"
+      designation : ""
+      content : "Purdue ACM SIGBots is incredibly grateful for the support of the following organizations,
+      as we would be unable to continue providing the industry-like engineering and computer science
+      experience to students without their generous financial support."
+
+    # slider item loop
+    - name : "Association for Computing Machinery"
+      image : "images/clients/client2.jpg"
+      designation : ""
+      content : "Purdue ACM SIGBots is incredibly grateful for the support of the following organizations,
+      as we would be unable to continue providing the industry-like engineering and computer science
+      experience to students without their generous financial support."
+
+######################### funfacts #############################3
+funfacts:
+  enable : false
+  funfacts_list:
+    # funfacts item loop
+    - name : "HANDS TO WORK"
+      image : "images/icons/works.png"
+      count : "100"
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "Looking to Join?"
