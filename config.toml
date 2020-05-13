@@ -63,19 +63,9 @@ URL = "#service"
 weight = 3
 
 [[menu.main]]
-name = "Projects"
-URL = "#portfolio"
-weight = 4
-
-[[menu.main]]
-name = "Sponsors"
-URL = "#testimonial"
-weight = 5
-
-[[menu.main]]
 name = "Contact"
 URL = "#contact"
-weight = 6
+weight = 4
 
 
 #################### default parameters ################################
@@ -83,7 +73,7 @@ weight = 6
 logo_light = "images/logo.png"
 logo_dark = ""
 # Meta data
-description = "Purdue ACM SIGBots is Purdue University's VEX U robotics team. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past seven seasons&mdash; for those of you counting, that's every season since the club has been around!"
+description = "Purdue ACM SIGBots is Purdue University's VEX U robotics team. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past ten seasons&mdash; for those of you counting, that's every season since the club has been around!"
 author = "Purdue ACM SIGBots"
 # contact form action
 contact_form_action = "https://formspree.io/xaybgedy" # contact form works with https://formspree.io

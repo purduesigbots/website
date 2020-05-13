@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT US"
-  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2012. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past seven seasons&mdash; for those of you counting, that's every season since the club has been around!"
+  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past ten seasons&mdash; for those of you counting, that's every season since the club has been around!"
   # button
   button:
     enable : false
@@ -50,7 +50,7 @@ experience:
     - name : "Tower Takeover"
       company : ""
       duration : "2019-2020"
-      content : "Heavy emphasis on mechanics with a strategy solely focused on have the game won by then end of the autonomous period. We won every qualifier we went to, and qualified 10 times for the World Championships. Sadly, the World Championships this year was cancelled due to the outbreak of COVID 19, ending our season short."
+      content : "Heavy emphasis on mechanics with a strategy solely focused on having the game won by then end of the autonomous period. We won every qualifier we went to, and qualified 10 times for the World Championships. Due to the outbreak of COVID 19, a virutal worlds was held where we were named the 2020 Virtual Worlds Champions."
 
     # experience item loop
     - name : "Turning Point"
@@ -100,6 +100,12 @@ experience:
       duration : "2011-2012"
       content : "The team placed second overall in the third annual VEX Robotics All-Star Challenge, earning the Tournament Finalist and Judges’ Award trophies."
 
+    # experience item loop
+    - name : "Round Up"
+      company : ""
+      duration : "2010-2011"
+      content : "The 2010-2011 season was the founding season of SIGBOTS and first time Purdue competed at the World Championships. This season was a large learning experience for the entire team adjusting to the college rules and fielding two robots. In the classic move all new teams make, a decision was made to rebuild a robot before the World Championship.  This resulted in its autonomous code being developed and tested in the van on the drive from Purdue to the ESPN Wide World of Sports Complex for the 2011 World Championships."
+
 ############################### Skill #################################
 skill:
   enable : true
@@ -132,7 +138,7 @@ service:
       image : "images/icons/web-development.png"
 
     # service item loop
-    - name : "8 Years Old"
+    - name : "10 Years Old"
       image : "images/icons/dbms.png"
 
     # service item loop
@@ -140,12 +146,12 @@ service:
       image : "images/icons/marketing.png"
 
     # service item loop
-    - name : "VEX Robotics World Championship Awards: 2019 Create, 2014 Innovate, 2013 innovate, 2013 Programming Skills"
-      image : "images/icons/software-development.png"
+    - name : "2020 Virtual Worlds Champions"
+      image : "images/icons/trophy-icon.png"
 
     # service item loop
-    - name : ""
-      image : ""
+    - name : "VEX Robotics World Championship Awards: 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
+      image : "images/icons/software-development.png"
 
     # service item loop
     - name : "Never lost an event, that was not at Purdue or the World Championship"
@@ -165,7 +171,7 @@ call_to_action:
 
 ############################# portfolio ################################
 portfolio:
-  enable : true
+  enable : false
   title : "PROJECTS"
   portfolio_list:
 
@@ -177,7 +183,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "Our Sponsors"
   testimonial_slider:
     # slider item loop
