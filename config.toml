@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://purduesigbots.com/"
+baseURL = "http://purduesigbots.com/"
 title = "Purdue ACM SIGBots"
 theme = "somrat"
 # disable language
