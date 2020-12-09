@@ -67,6 +67,15 @@ name = "Contact"
 URL = "#contact"
 weight = 4
 
+[[menu.main]]
+name = "PROS"
+URL = "https://pros.cs.purdue.edu/"
+weight = 5
+
+[[menu.main]]
+name = "Wiki"
+URL = "https://wiki.purduesigbots.com/"
+weight = 6
 
 #################### default parameters ################################
 [params]
