@@ -156,7 +156,7 @@ service:
       image : "images/icons/trophy-icon.png"
 
     # service item loop
-    - name : "VEX Robotics World Championship Awards: 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
+    - name : "VEX Worlds Awards: 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
       image : "images/icons/software-development.png"
 
     # service item loop
