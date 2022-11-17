@@ -46,6 +46,12 @@ experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
+  # experience item loop
+    - name : "Tipping Point"
+      company : ""
+      duration : "2021-2022"
+      content : "This season showed significant growth in the size and capabilities of the Purdue ACM SIGBots.  As a result of our largest recruit class to date, Purdue SIGBots expanded to two competition teams, BLRS and BLRS2. With the winding down of the COVID-19 pandemic, Purdue University eased its restrictions on the number of individuals in lab spaces and masking. Subteam meetings returned to being in-person for the first time since 2020, giving new and existing team members alike the chance to meet and work in person. With new opportunities came new challenges, as funding became more difficult with the return to campus. However, SIGBots obtained a generous grant from Purdue University to attend the 2022 VEX U World Championship in Dallas, Texas, where BLRS placed second overall, and BLRS2 brought home the World Skills Champion trophy with a high score of 699 points."
+   
     # experience item loop
     - name : "Change Up"
       company : ""
