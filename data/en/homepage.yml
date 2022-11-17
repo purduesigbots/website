@@ -133,11 +133,11 @@ skill:
 
     # skill item loop
     - name : "Computer Science Majors"
-      parcentage : "20%"
+      parcentage : "30%"
 
     # skill item loop
     - name : "Other Major"
-      parcentage : "20%"
+      parcentage : "10%"
 
 
 ################################### Service ##############################3
