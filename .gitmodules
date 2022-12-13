@@ -1,2 +1,3 @@
 [submodule "themes/somrat"]
+	path = themes/somrat
 	url = https://github.com/kunwarsahni01/somrat.git
