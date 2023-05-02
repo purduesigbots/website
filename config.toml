@@ -3,7 +3,7 @@ baseURL = "https://purduesigbots.com/"
 title = "Purdue ACM SIGBots"
 theme = "somrat"
 # disable language
-disableLanguages = [true] # desable language from here
+disableLanguages = [true] # disable language from here
 
 ############################# Plugins ##############################
 

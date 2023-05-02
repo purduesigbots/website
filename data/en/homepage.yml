@@ -7,6 +7,7 @@ hero:
     - "VEX U Team"
     - "Robotics"
     - "Software"
+    - "Community"
 
   # slider background image loop
   slider_image:
@@ -34,7 +35,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT US"
-  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past ten seasons&mdash; for those of you counting, that's every season since the club has been around!"
+  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past thirteen seasons &mdash; for those of you counting, that's every season since the club has been around!"
   # button
   button:
     enable : false
@@ -150,7 +151,11 @@ service:
       image : "images/icons/web-development.png"
 
     # service item loop
-    - name : "10 Years Old"
+    - name : "Creator of the Purdue SIGBots Wiki"
+      image : "images/icons/book.png"
+
+    # service item loop
+    - name : "13 Years Old"
       image : "images/icons/dbms.png"
 
     # service item loop
@@ -162,12 +167,16 @@ service:
       image : "images/icons/trophy-icon.png"
 
     # service item loop
-    - name : "VEX Worlds Awards: 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
-      image : "images/icons/software-development.png"
+    - name : "VEX Worlds Awards: 2023 Think Award, 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
+      image : "images/icons/award.png"
 
     # service item loop
     - name : "Never lost an event, that was not at Purdue or the World Championship"
       image : "images/icons/mobile-app.png"
+
+    # service item loop
+    - name : "2023 Indiana State Volunteer of the Year"
+      image : "images/icons/community.png"
 
 
 ############################## call to action #########################
