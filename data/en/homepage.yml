@@ -35,7 +35,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT US"
-  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past thirteen seasons &mdash; for those of you counting, that's every season since the club has been around!"
+  content:  "Purdue ACM SIGBots is Purdue University's VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past fourteen seasons &mdash; for those of you counting, that's every season since the club has been around!"
   # button
   button:
     enable : false
@@ -180,7 +180,7 @@ service:
       image : "images/icons/trophy-icon.png"
 
     # service item loop
-    - name : "VEX Worlds Awards: 2024 Community Award, 2024 Design Award, 2023 Think Award, 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
+    - name : "VEX Worlds Awards: 2024 VEX U World Champions, 2024 Community Award, 2024 Design Award, 2023 Think Award, 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
       image : "images/icons/award.png"
 
     # service item loop
