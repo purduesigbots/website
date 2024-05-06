@@ -47,7 +47,20 @@ experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
-  # experience item loop
+
+    #  experience item loop
+    - name : "Over Under"
+      company : ""
+      duration : "2023-2024"
+      content : "This season, we set the goal of having a larger community impact. We started by expanding our service with the TechPoint Foundation For Youth and their coding help hotline for k-12 students. We also hosted 2 VRC competitions bringing a combined 900 students onto Purdue’s campus as well as our VexU competition being again the world’s largest with 30 teams from across North America. On the competition side, we moved back to 2 teams due to funding limitations but each team was stronger than in years past. We focused on uniform design elements & processes across the two teams as well as on our engineering design process. This culminated in our attendance at the World Championship where BLRS2 took home the Design Award, 10th in skills, and became the WORLD CHAMPIONS."
+    
+    # experience item loop
+    - name : "Spin Up"
+      company : ""
+      duration : "2022-2023"
+      content : "Building off the success of our previous season, we ventured this season into many more advanced techniques for building & programming our robots. We also expanded to 3 competition teams with BLRS3 being added to the roster. We also expanded our volunteering this year to include the hosting of our first VRC competition in early January which took place in Purdue’s Armory. Our 3 teams competed in Michigan, Illinois, Kentucky, and at home in Indiana with the world’s largest VexU competition of the season (outside of the world championship) being hosted at Purdue with 24 teams from the US & Mexico. We experimented more with 3d printing, and added laser cut sheet metal to our design arsenal. We also developed an AI-powered vision tracking system for targeting with our robots using an Oak-1 camera on top of a stack of custom electronics to interface with the v5 brain. Utilizing a generous grant from the National Havoc Robotics League, the Purdue SIGBots were able to attend the Vex Robotics World Championship in Dallas Texas where we brought home the Think Award for our programming, alongside being the division finalists."
+    
+    # experience item loop
     - name : "Tipping Point"
       company : ""
       duration : "2021-2022"
@@ -126,19 +139,19 @@ skill:
   skill_list:
     # skill item loop
     - name : "Engineering Majors"
-      parcentage : "30%"
+      parcentage : "39.4%"
 
     # skill item loop
     - name : "Polytechnic Majors"
-      parcentage : "30%"
+      parcentage : "33.3%"
 
     # skill item loop
     - name : "Computer Science Majors"
-      parcentage : "30%"
+      parcentage : "23.2%"
 
     # skill item loop
     - name : "Other Major"
-      parcentage : "10%"
+      parcentage : "4.1%"
 
 
 ################################### Service ##############################3
@@ -163,15 +176,15 @@ service:
       image : "images/icons/marketing.png"
 
     # service item loop
-    - name : "2020 Virtual Worlds Champions"
+    - name : "2024 VEX U Worlds Champions"
       image : "images/icons/trophy-icon.png"
 
     # service item loop
-    - name : "VEX Worlds Awards: 2023 Think Award, 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
+    - name : "VEX Worlds Awards: 2024 Community Award, 2024 Design Award, 2023 Think Award, 2022 Skills Champion, 2022 World Finalist, 2019 Create, 2014 Innovate, 2013 Innovate, 2013 Programming Skills"
       image : "images/icons/award.png"
 
     # service item loop
-    - name : "Never lost an event, that was not at Purdue or the World Championship"
+    - name : "2024 Community Award Winners"
       image : "images/icons/mobile-app.png"
 
     # service item loop
