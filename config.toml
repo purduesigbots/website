@@ -1,9 +1,26 @@
 ######################## default configuration ####################
-baseURL = "https://purduesigbots.com/"
-title = "Purdue ACM SIGBots"
-theme = "somrat"
+baseURL = "https://mhjohnso-purdue.github.io/SigbotsWebsiteNew/"
+title = "Purdue SIGBots"
+theme = "somrat-master"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
 # disable language
-disableLanguages = [true] # disable language from here
+disableLanguages = [] # disable language from here
+# google analitics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+enableInlineShortcodes = true
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML"]
+
+[markup.goldmark.renderer]
+unsafe= true
 
 ############################# Plugins ##############################
 
@@ -11,7 +28,9 @@ disableLanguages = [true] # disable language from here
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/font-awesome.min.css"
+link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
@@ -22,8 +41,6 @@ link = "plugins/owl-carousel/owl.carousel.min.css"
 link = "plugins/owl-carousel/owl.theme.default.min.css"
 [[params.plugins.css]]
 link = "plugins/text-animation/text-animation.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -37,72 +54,99 @@ link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
-link = "plugins/filterizr/jquery.filterizr.min.js"
+link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
 
 
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "#home"
-weight = 1
-
-[[menu.main]]
-name = "About Us"
-URL = "#about"
-weight = 2
-
-[[menu.main]]
-name = "Achievements"
-URL = "#service"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "#contact"
-weight = 4
-
-[[menu.main]]
-name = "PROS"
-URL = "https://pros.cs.purdue.edu/"
-weight = 5
-
-[[menu.main]]
-name = "Wiki"
-URL = "https://wiki.purduesigbots.com/"
-weight = 6
-
 #################### default parameters ################################
 [params]
+favicon = "images/favicon.png"
 logo_light = "images/logo.png"
-logo_dark = ""
+logo_dark = "images/logo-dark.png"
+logo_width = "150px"
 # Meta data
-description = "Purdue ACM SIGBots is Purdue University's VEX U robotics team. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past ten seasons&mdash; for those of you counting, that's every season since the club has been around!"
-author = "Purdue ACM SIGBots"
-# contact form action
-contact_form_action = "https://formspree.io/xaybgedy" # contact form works with https://formspree.io
-# Google Analitycs
-google_analitycs_id = "UA-84548828-5" # your id
+description = "This is meta description"
+author = "Purdue SIGBots"
 
 # Preloader
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
-
+  
 ############################# social site ########################
-[[params.social]]
-icon = "fa-youtube-play" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.youtube.com/channel/UCJLZd0RcpX1d4en3mWfvXQw"
 
 [[params.social]]
-icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/purduesigbots/"
+icon = "fab fa-instagram"
+link = "https://www.instagram.com/somratpro"
 
 [[params.social]]
-icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+icon = "fab fa-youtube"
+link = "https://www.youtube.com/@purduesigbots1869"
+
+[[params.social]]
+icon = "fab fa-github"
 link = "https://github.com/purduesigbots"
+
+[[params.social]]
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/company/purdue-acm-sigbots/"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+
+
+################# english navigation ##################
+
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "About Us"
+pre = "#"
+url = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Achievements"
+pre = "#"
+url = "achievements"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Portfolio"
+pre = "#"
+url = "portfolio"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Officers"
+pre = "#"
+url = "testimonial"
+weight = 5
+
+[[Languages.en.menu.main]]
+name = "Contact"
+pre = "#"
+url = "contact"
+weight = 6
+
+[[Languages.en.menu.main]]
+name = "Blog"
+url = "blog"
+weight = 7
+
+
