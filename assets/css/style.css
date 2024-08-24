@@ -1407,12 +1407,12 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 /*--------------------------------
-   Start Testimonials
+   Start Sponsors
 ----------------------------------*/
 
-/* ========= Start Main Testimonials ======= */
+/* ========= Start Main Sponsors ======= */
 
-.testimonials {
+.sponsors {
   background: #fff;
   padding: 70px 0px;
 }
@@ -1421,7 +1421,7 @@ ul.experience-chart h4 {
   margin-top: 50px;
 }
 
-.testimonials-container h1 {
+.sponsors-container h1 {
   position: relative;
   text-align: center;
   color: #6f6f6f;
@@ -1429,7 +1429,7 @@ ul.experience-chart h4 {
   letter-spacing: 2px;
 }
 
-.testimonials-container h1:before {
+.sponsors-container h1:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -1441,17 +1441,17 @@ ul.experience-chart h4 {
   background: #6f6f6f;
 }
 
-.single-testimonial img {
+.single-sponsor img {
   width: 160px;
   margin: auto;
 }
 
-.no-js .single-testimonial img {
+.no-js .single-sponsor img {
   width: 165px;
   display: inherit;
 }
 
-.single-testimonial h2 {
+.single-sponsor h2 {
   text-align: center;
   font-weight: 700;
   font-size: 26px;
@@ -1459,7 +1459,7 @@ ul.experience-chart h4 {
   margin-bottom: 2px;
 }
 
-.single-testimonial span {
+.single-sponsor span {
   display: block;
   text-align: center;
   font-size: 13px;
@@ -1468,7 +1468,7 @@ ul.experience-chart h4 {
   margin-bottom: 15px;
 }
 
-.single-testimonial p {
+.single-sponsor p {
   color: #6f6f6f;
   font-weight: 500;
   font-size: 17px;
@@ -1477,11 +1477,11 @@ ul.experience-chart h4 {
   margin: auto;
 }
 
-.no-js .single-testimonial p {
+.no-js .single-sponsor p {
   margin-bottom: 40px;
 }
 
-.single-testimonial .fa {
+.single-sponsor .fa {
   font-size: 25px;
 }
 
@@ -1542,7 +1542,7 @@ ul.experience-chart h4 {
 }
 
 /*--------------------------------
-   End Testimonials
+   End Sponsors
 ----------------------------------*/
 
 /*--------------------------------
@@ -2173,11 +2173,11 @@ textarea.form-control::-webkit-input-placeholder,
 ----------------------------------*/
 
 /*--------------------------------
-   Start Testimonials
+   Start Sponsors
 ----------------------------------*/
 
 @media(max-width: 380px) {
-  .single-testimonial p {
+  .single-sponsor p {
     width: 80%;
   }
 }
@@ -2193,19 +2193,19 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 @media (min-width:766px) and (max-width: 991px) {
-  .testimonials {
+  .sponsors {
     padding: 70px 0px 35px 0px;
   }
 }
 
 @media (max-width: 767px) {
-  .testimonials {
+  .sponsors {
     padding: 70px 0px 0px 0px;
   }
 }
 
 /*--------------------------------
-  End Testimonials
+  End Sponsors
 ----------------------------------*/
 
 /*--------------------------------

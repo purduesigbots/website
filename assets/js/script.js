@@ -259,7 +259,7 @@
 	----------------------------------*/
 
 	/*--------------------------------
-			 Start Testimonials
+			 Start Sponsors
 	----------------------------------*/
 	// Configure and Initialize Owl Carousel
 	$(".owl-carousel").owlCarousel({
@@ -270,7 +270,7 @@
 		autoplayTimeout: 3000
 	});
 	/*--------------------------------
-			End Testimonials
+			End Sponsors
 	----------------------------------*/
 
 	/*--------------------------------

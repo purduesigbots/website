@@ -347,17 +347,17 @@
 {{ end }}
 <!-- End Portfolio -->
 
-<!-- Start Testimonials -->
-{{ with .GetPage "testimonial"}}
-<section class="testimonials {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="testimonial">
+<!-- Start Sponsors -->
+{{ with .GetPage "sponsors"}}
+<section class="sponsors {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="sponsors">
   <div class="container">
     <div class="row">
-      <div class="testimonials-container col-lg-8 offset-lg-2">
+      <div class="sponsors-container col-lg-8 offset-lg-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .Title | markdownify }}</h1>
         <div class="owl-carousel owl-theme wow fadeInUp" data-wow-duration="1.5s">
-          {{ range .Params.testimonial_slider }}
-          <div class="single-testimonial">
-            <div class="testimonial-holder">
+          {{ range .Params.sponsor_slider }}
+          <div class="single-sponsor">
+            <div class="sponsor-holder">
               <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
               <h2>{{ .name }}</h2>
               <span>{{ .designation | markdownify }}</span>
@@ -371,7 +371,7 @@
   </div>
 </section>
 {{ end }}
-<!-- End Testimonials -->
+<!-- End Sponsors -->
 
 <!-- funfacts -->
 {{ with .GetPage "funfacts"}}

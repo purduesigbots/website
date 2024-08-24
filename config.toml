@@ -8,9 +8,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
 # google analytics
-googleAnalytics = "" # example : UA-123-45
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+googleAnalytics = "UA-84548828-5" # example : UA-123-45
 
 
 ############################# Outputs ##############################
@@ -78,7 +76,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-instagram"
-link = "https://www.instagram.com/somratpro"
+link = "https://www.instagram.com/purduesigbots"
 
 [[params.social]]
 icon = "fab fa-youtube"
@@ -100,7 +98,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright &copy; 2024 Purdue SIGBots"
 
 
 ################# english navigation ##################
@@ -130,9 +128,9 @@ url = "portfolio"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Testimonial"
+name = "Sponsors"
 pre = "#"
-url = "testimonial"
+url = "sponsors"
 weight = 5
 
 [[Languages.en.menu.main]]

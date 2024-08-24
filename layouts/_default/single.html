@@ -26,13 +26,6 @@
               href="{{`tags` | absLangURL}}/{{.|urlize | lower}}">{{.|title}}</a>{{end}}
           </div>
           {{ end }}
-
-          <!-- comments -->
-          {{ if .Site.DisqusShortname }}
-          <div class="mt-5">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-          {{ end }}
         </div>
       </div>
       <div class="col-lg-4">
