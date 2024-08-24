@@ -1,6 +1,6 @@
 ---
 title: "Oh My Blog!"
-description: "This is meta description."
+description: "Purdue SIGBots Blog. Our totally sane musings."
 draft: false
 
 

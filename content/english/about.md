@@ -13,6 +13,10 @@ experience:
   title : "Past Seasons"
   experience_list:
     # experience item loop
+    - name : "Over Under"
+      duration : "2023-2024"
+      content : "This season, we set the goal of having a larger community impact. We started by expanding our service with the TechPoint Foundation For Youth and their coding help hotline for k-12 students. We also hosted 2 VRC competitions bringing a combined 900 students onto Purdue’s campus as well as our VexU competition being again the world’s largest with 30 teams from across North America. On the competition side, we moved back to 2 teams due to funding limitations but each team was stronger than in years past. We focused on uniform design elements & processes across the two teams as well as on our engineering design process. This culminated in our attendance at the World Championship where BLRS2 took home the Design Award, 10th in skills, and became the WORLD CHAMPIONS."
+
     - name : "Spin Up"
       duration : "2022-2023"
       content : "This season, we had even more growth in the team with the ability to field our third team BLRS3 for the first time ever. After the recovery from the pandemic, SIGBots focused on growing stronger with several early season competitions, a focus on custom fabrication and more advanced techniques. The club also took steps towards advanced software projects including aiming systems using Oak1 cameras. This was also the first season that the club hosted a VRC competition with lots of investment towards club longevity. After the support of a grant from NHRL, SIGBots went on to send all 3 teams to worlds, with BLRS being division finalists, BLRS2 taking home the Think award, and all 3 teams being ranked in the top 10 of skills challenge entries and top 10 in their division rankings."
@@ -70,21 +74,17 @@ demos:
   enable : true
   title : "DEMOGRAPHICS"
   demos_list:
-    # demos item loop
-    - name : "Computer Science Majors"
-      percentage : "30%"
-      
-    # demos item loop
     - name : "Engineering Majors"
-      percentage : "30%"
-      
-    # demos item loop
+      percentage : "39.4%"
+
     - name : "Polytechnic Majors"
-      percentage : "30%"
-      
-    # demos item loop
-    - name : "Other"
-      percentage : "10%"
+      percentage : "33.3%"
+
+    - name : "Computer Science Majors"
+      percentage : "23.2%"
+
+    - name : "Other Major"
+      percentage : "4.1%"
 
 
 # custom style

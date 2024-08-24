@@ -20,10 +20,6 @@
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-  <!-- Custom stylesheet -->
-  {{ $custom := resources.Get "css/custom.css" | minify }}
-  <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
-
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">

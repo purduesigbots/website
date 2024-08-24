@@ -1,11 +1,16 @@
 ---
-title: "This Is A Simple Blog Post"
-date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item3.jpg"
-tags: ["web","development"]
-description: "This is meta description."
+title: "BLRS2 Black Lightning"
+date: "2020-05-12T12:14:34+06:00"
+image: "images/portfolio/blackLightning.jpg"
+tags: ["Competition"]
+description: "Showcase of BLRS2's 18\" Robot Black Lightning"
 draft: false
 ---
+
+<!--{{<example>}} -->
+{{<model 3kEVOGo>}}
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://purdue3033.autodesk360.com/g/shares/SHd38bfQT1fb47330c99bce14e1e8dab9767?mode=embed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe></div>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -14,7 +19,7 @@ fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
 mollit anim id est laborum.
 
 
-#### Heading Ulala!
+#### Project Details
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -26,7 +31,7 @@ dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur au
 consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
 
 
-#### One More Heading
+#### Project Requirements
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip

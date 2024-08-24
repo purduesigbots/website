@@ -714,7 +714,7 @@ input:checked+label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 55px;
+  height: 35px;
 }
 
 .mobile-menu-logo {
@@ -1444,7 +1444,6 @@ ul.experience-chart h4 {
 .single-testimonial img {
   width: 160px;
   margin: auto;
-  border-radius: 100%;
 }
 
 .no-js .single-testimonial img {

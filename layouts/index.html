@@ -4,7 +4,7 @@
 {{ with .GetPage "banner" }}
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
-    <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
+    <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}" style="margin-top: 15px;">
   </div>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
@@ -128,8 +128,10 @@
             <span></span>
           </div>
         </a>
-        <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
+        <div class="mobile-menu-logo">
+          <a href="{{site.BaseURL | relLangURL }}">
+            <img class="img-fluid" src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}" height="30px" />
+          </a>
         </div>
         <div class="menu-slider">
           <nav>
@@ -288,7 +290,7 @@
 <!-- end call to action -->
 
 <!-- Start Portfolio -->
-{{ with .GetPage "portfolio"}}
+{{ with .GetPage "blog"}}
 <section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   <div class="container-fluid text-center">
     <div class="row portfolio-holder text-left">
@@ -299,15 +301,15 @@
             <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
               <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
             </label>
-            {{ $categories := slice }}
+            {{ $tags := slice }}
             {{ range .Data.Pages }}
-            {{ range .Params.categories }}
-            {{ $categories = $categories | append . }}
+            {{ range .Params.tags }}
+            {{ $tags = $tags | append . }}
             {{ end }}
             {{ end }}
-            {{ range ( $categories | uniq ) }}
+            {{ range ( $tags | uniq ) }}
             <label class="btn btn-sm btn-primary hvr-sweep-to-right">
-              <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+              <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . }}
             </label>
             {{ end }}
           </div>
@@ -317,14 +319,14 @@
         <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
           {{ range first 6 .Data.Pages }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
-            data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+            data-groups="[{{range $index, $element:= .Params.tags }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
               <a class="image-pop" href="{{ .Params.image | absURL }}" title="{{ .Title | markdownify }}">
                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
               </a>
               <div class="item-caption">
                 <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h2>
-                {{ range .Params.categories }}
+                {{ range .Params.tags }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
                 <div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div>

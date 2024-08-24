@@ -18,7 +18,7 @@ funfacts:
   count : "25000"
   
 # funfacts item loop
-- name : "CUMMULATIVE YEARS OF EXPERIENCE"
+- name : "CUMULATIVE YEARS OF EXPERIENCE"
   image : "images/icons/coffee.png"
   count : "300"
 
