@@ -358,7 +358,11 @@
           {{ range .Params.sponsor_slider }}
           <div class="single-sponsor">
             <div class="sponsor-holder">
-              <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
+              {{ if .svgimage }}
+                {{ partial .svgimage "100" }}
+              {{ else }}
+                <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
+              {{ end }}
               <h2>{{ .name }}</h2>
               <span>{{ .designation | markdownify }}</span>
               <p><i class="fa fa-quote-left"></i> {{ .content | markdownify }} <i class="fa fa-quote-right"></i></p>

@@ -4,7 +4,7 @@ draft: false
 sponsor_slider:
 # slider item loop
 - name : ""
-  image : "images/clients/elegoo/elegoo.png"
+  svgimage : "elegoo.svg"
   designation : ""
   content : "ELEGOO's generous sponsorship will provide us with top-notch filaments, ensuring that our robots are built to last and perform at their best. As a leader in the 3D printing industry, ELEGOO offers a wide range of high-quality products, from 3D printers and filaments to resins and laser engravers. We are excited to incorporate their innovative solutions into our design process, confident that their support will elevate our competitive edge."
   custom_attributes: "style='border-radius:0% !important;'"

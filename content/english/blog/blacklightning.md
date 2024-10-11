@@ -4,7 +4,7 @@ date: "2020-05-12T12:14:34+06:00"
 image: "images/portfolio/blackLightning.jpg"
 tags: ["Competition"]
 description: "Showcase of BLRS2's 18\" Robot Black Lightning"
-draft: false
+draft: true
 ---
 
 <!--{{<example>}} -->

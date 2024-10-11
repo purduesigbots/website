@@ -11,8 +11,10 @@
         <div class="wow fadeInUp" data-wow-duration="1.5s">
           {{ with .Params.image }}<img src="{{. | absURL}}" alt="image" class="img-fluid w-100 mb-5">{{ end }}
           <div class="about-me-text mb-4">
-            {{ if .Params.titleimg }}
-            <img src="{{.Params.titleimg | absURL}}" alt="{{.Title}}" class="img-fluid" height="30px">
+            {{ if .Params.titlesvg }}
+              {{ partial .Params.titlesvg }}
+            {{ else if .Params.titleimg }}
+              <img src="{{.Params.titleimg | absURL}}" alt="{{.Title}}" class="img-fluid" height="30px">
             {{ else }}
             <h1>{{.Title | markdownify}}</h1>
             {{ end }}

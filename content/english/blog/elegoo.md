@@ -1,6 +1,6 @@
 ---
 title: "Elegoo"
-titleimg: "images/clients/elegoo/elegoo.png"
+titlesvg: "elegoo.svg"
 date: "2024-08-22T12:00:00-04:00"
 image: "images/clients/elegoo/filament.jpg"
 tags: ["Elegoo"]
