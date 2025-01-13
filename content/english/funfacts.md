@@ -10,7 +10,7 @@ funfacts:
 # funfacts item loop
 - name : "PROS INSTALLS"
   image : "images/icons/works.png"
-  count : "60000"
+  count : "100000"
   
 # funfacts item loop
 - name : "MONTHLY WIKI VIEWS"
