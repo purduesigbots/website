@@ -27,15 +27,16 @@
 				$({
 					countNum: $this.text()
 				}).animate({
-					countNum: countTo
+					countNum: parseInt(countTo.replaceAll(",", ""))
 				}, {
 					duration: 1000,
 					easing: 'swing',
 					step: function () {
-						$this.text(Math.floor(this.countNum));
+						$this.text(Math.floor(this.countNum).toLocaleString());
 					},
 					complete: function () {
-						$this.text(this.countNum);
+						$this.text(countTo);
+						$this.removeClass("count");
 					}
 				});
 			});

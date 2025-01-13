@@ -10,17 +10,17 @@ funfacts:
 # funfacts item loop
 - name : "PROS INSTALLS"
   image : "images/icons/works.png"
-  count : "100000"
+  count : "100,000+"
   
 # funfacts item loop
 - name : "MONTHLY WIKI VIEWS"
   image : "images/icons/project.png"
-  count : "25000"
+  count : "25,000+"
   
 # funfacts item loop
 - name : "CUMULATIVE YEARS OF EXPERIENCE"
   image : "images/icons/coffee.png"
-  count : "300"
+  count : "300+"
 
 
 # custom style
