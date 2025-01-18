@@ -1,7 +1,7 @@
 ---
 title : "Purdue SIGBots"
 # full screen navigation
-bg_image : "images/backgrounds/SU Team.jpg"
+bg_image : "images/blog/blrs2-hero2.jpg"
 # animated text loop
 occupations:
 - "VexU Team"
@@ -11,6 +11,7 @@ occupations:
 
 # slider background image loop
 slider_images:
+- "images/blog/blrs2-hero2.jpg"
 - "images/slider/SU Team.jpg"
 - "images/slider/SU BLRS2.jpg"
 - "images/slider/TiP BLRS2.jpg"
