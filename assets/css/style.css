@@ -319,12 +319,57 @@ body {
   padding: 5px 18px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  border-radius: 3px;
 }
 
 .head-holder .hireMe:hover {
   background: #6f6f6f;
   color: #fff;
   border: 2px solid #6f6f6f;
+}
+
+.head-holder .live {
+  display: inline-block;
+  opacity: 0;
+  background: rgba(225, 0, 45, 0.3);;
+  margin-top: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  border: 2px solid rgba(225, 0, 45, 0.9);
+  border-radius: 3px;
+  padding: 5px 18px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.head-holder .live::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 33, 33);
+  vertical-align: 4%;
+  margin-right: 5px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.head-holder .live:hover::before {
+  background-color: white;
+}
+
+.head-holder .live:hover {
+  background: rgba(225, 0, 45, 0.8);
+  color: #fff;
+  border: 2px solid rgba(225, 0, 45, 0.9);
+}
+
+.head-holder .active {
+  opacity: 1;
 }
 
 input+label {
@@ -889,25 +934,6 @@ input:checked+label span:last-child {
 
 .about-me-images img {
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
-  transition: all linear .3s;
-}
-
-.about-me-images img:hover {
-  width: 100%;
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -o-filter: grayscale(0%);
-  filter: grayscale(0%);
 }
 
 .about-me .hvr-icon-hang:before {

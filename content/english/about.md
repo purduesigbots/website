@@ -1,6 +1,6 @@
 ---
 title : "KNOW MORE <br> ABOUT US"
-image : "images/backgrounds/TT Team About.jpg"
+image : "images/blog/blrs2-hero2.jpg"
 # button
 button:
   enable : true
