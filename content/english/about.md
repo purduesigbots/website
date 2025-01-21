@@ -28,17 +28,17 @@ experience:
     - name : "Change Up"
       duration : "2020-2021"
       content : "This season started in the middle of the COVID 19 Pandemic and placed many restrictions on our ability to work on robots. Luckily, we were able to remain on campus but with a 5 person limit to the lab and no funding from the computer science department. Among other challenges, we have had to move our workflow to be almost entirely online but nonetheless we're continuing to grow our program by increasing the scale of our robots with advanced programming techniques like odometry and advanced manufacturing techniques like machining metal."
-    
+
     - name : "Tower Takeover"
       duration : "2019-2020"
       content : "Heavy emphasis on mechanics with a strategy solely focused on having the game won by the end of the autonomous period. We won every qualifier we went to and qualified 10 times for the World Championships. Due to the outbreak of COVID 19, a virutal worlds was held where we were named the 2020 Virtual Worlds Champions."
-      
+
     - name : "Turning Point"
-      duration : "2022-2023"
+      duration : "2018-2019"
       content : "This season focused on creating a simple concept and optimizing it to its full potential. Our team took a non-meta approach to the season leaving the bulk of our scoring ability in one of our robots. This paid off as we won every qualifier we attended, qualifying for the World Championships 8 times. At the World Championships BLRS worked its way up to being the undefeated 1 seed in the Design division, later to be knocked out in the quarterfinals."
 
     - name : "In The Zone"
-      duration : "2022-2023"
+      duration : "2017-2018"
       content : "Having 1 robot per team, SIGBots were able to field both BLRS and BLRS1 this season. The approach of having a veteran team and a new member team did not prove to be beneficial to BLRS1. Using a subpar, off-meta design BLRS was able to qualify for worlds and ended up externally stacking their way to the #13 seed at worlds. This marked the first time BLRS has made eliminations at the World Championship"
 
     - name : "Starstruck"
@@ -52,7 +52,7 @@ experience:
     - name : "Skyrise"
       duration : "2014-2015"
       content: "The crowning achievement from Skyrise was the development of Four Is, a custom sensor designed to communicate between the two robots through infrared light. Four Is allowed the two robots to talk and coordinate during the autonomous period."
-      
+
     - name : "Toss Up"
       duration : "2013-2014"
       content : "The 2013-14 season was one with a heavy emphasis on electronics and software development. The Watchdog Sensor received a form factor upgrade and the R.A.D.I.U.S. Array was created. These developments earned the team another Innovate Award at the VEX U World Championships."
@@ -68,7 +68,7 @@ experience:
     - name : "Round Up"
       duration : "2010-2011"
       content : "The 2010-2011 season was the founding season of SIGBOTS and first time Purdue competed at the World Championships. This season was a large learning experience for the entire team adjusting to the college rules and fielding two robots. In the classic move all new teams make, a decision was made to rebuild a robot before the World Championship.  This resulted in its autonomous code being developed and tested in the van on the drive from Purdue to the ESPN Wide World of Sports Complex for the 2011 World Championships."
-      
+
 ############################### Demographics #################################
 demos:
   enable : true
@@ -88,8 +88,8 @@ demos:
 
 
 # custom style
-custom_class: "" 
-custom_attributes: "" 
+custom_class: ""
+custom_attributes: ""
 custom_css: ""
 ---
 
