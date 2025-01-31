@@ -28,6 +28,8 @@
 </section>
 
 <!-- regular page -->
+{{ else if or (eq .Section "merch") (eq .Section "shop") }}
+{{ .Render "shop" . }}
 {{ else }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>

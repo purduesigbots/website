@@ -112,35 +112,30 @@ weight = 1
 [[Languages.en.menu.main]]
 name = "About Us"
 pre = "#"
-url = "about"
 weight = 2
 
 [[Languages.en.menu.main]]
 name = "Achievements"
 pre = "#"
-url = "achievements"
 weight = 3
-
-[[Languages.en.menu.main]]
-name = "Portfolio"
-pre = "#"
-url = "portfolio"
-weight = 4
 
 [[Languages.en.menu.main]]
 name = "Sponsors"
 pre = "#"
-url = "sponsors"
-weight = 5
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Contact"
 pre = "#"
-url = "contact"
-weight = 6
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Blog"
 url = "blog"
+weight = 6
+
+[[Languages.en.menu.main]]
+name = "Shop"
+url = "shop"
 weight = 7
 
