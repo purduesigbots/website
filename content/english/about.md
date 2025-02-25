@@ -5,7 +5,7 @@ image : "images/blog/blrs2-hero2.jpg"
 button:
   enable : true
   label : "VIEW OUR WORK"
-  link : "#portfolio"
+  link : "#about"
 
 ########################### Past Seasons ##############################
 experience:

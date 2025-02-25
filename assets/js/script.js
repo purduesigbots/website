@@ -376,4 +376,12 @@
 			$(".live").remove();
 		}
 	});
+
+	document.querySelectorAll(".carousel-indicators [data-bs-target]").forEach((el) => {
+		el.addEventListener("click", (e) => {
+			e.preventDefault();
+			$(el.dataset.bsTarget).carousel(parseInt(el.dataset.bsSlideTo));
+		});
+	});
+
 }(jQuery));
