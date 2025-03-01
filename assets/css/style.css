@@ -2455,8 +2455,8 @@ textarea.form-control::-webkit-input-placeholder,
 .product-desc {
 	grid-area: description;
 	font-weight: 400;
-	margin-bottom: 250px;
-  height: 100%;
+	margin-bottom: 20px;
+  height: 300px;
   border: none;
   overflow-y: scroll;
   resize: none;
@@ -2493,7 +2493,25 @@ textarea.form-control::-webkit-input-placeholder,
   margin-top: auto;
 }
 
-/* .product:nth-of-type(odd) {
-	grid-template-areas: "image name         name" "image description  description" "image .            ." "image button       button";
-	grid-template-columns: 3fr 1fr 1fr
-} */
+@media (max-width: 800px) {
+  .product {
+    grid-template-areas: "name" "image" "description" "button";
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+
+  .product-name {
+    margin-bottom: 0px;
+    font-size: 26px;
+  }
+
+  .product-desc {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+
+  .carousel {
+    height: 106%;
+  }
+}

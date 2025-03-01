@@ -16,6 +16,7 @@ googleAnalytics = "UA-84548828-5" # example : UA-123-45
 home = ["HTML"]
 
 [markup.goldmark.renderer]
+hardWraps = true
 unsafe= true
 
 ############################# Plugins ##############################
@@ -138,4 +139,3 @@ weight = 6
 name = "Shop"
 url = "shop"
 weight = 7
-

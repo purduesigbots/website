@@ -35,7 +35,7 @@
                 {{ end }}
               </div>
             </div>
-            <textarea class="product-desc">{{ .description }}</textarea>
+            <div class="product-desc">{{ .description | markdownify }}</div>
             <div class="product-btn-container">
               <div class="product-price">${{ .price }} <span style="font-size: 18px; font-weight: normal;">Excl. tax</span></div>
               <a class="product-btn-container buy-button btn" href="{{ .product_url }}" target="_blank">
