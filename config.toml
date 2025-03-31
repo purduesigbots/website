@@ -112,22 +112,22 @@ weight = 1
 
 [[Languages.en.menu.main]]
 name = "About Us"
-pre = "#"
+pre = "#about"
 weight = 2
 
 [[Languages.en.menu.main]]
 name = "Achievements"
-pre = "#"
+pre = "#achievements"
 weight = 3
 
 [[Languages.en.menu.main]]
 name = "Sponsors"
-pre = "#"
+pre = "#sponsors"
 weight = 4
 
 [[Languages.en.menu.main]]
 name = "Contact"
-pre = "#"
+pre = "#contact"
 weight = 5
 
 [[Languages.en.menu.main]]
@@ -139,3 +139,13 @@ weight = 6
 name = "Shop"
 url = "shop"
 weight = 7
+
+[[Languages.en.menu.main]]
+name = "PROS"
+url = "https://pros.cs.purdue.edu/"
+weight = 8
+
+[[Languages.en.menu.main]]
+name = "Wiki"
+url = "https://wiki.purduesigbots.com/"
+weight = 9
