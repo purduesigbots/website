@@ -2515,3 +2515,31 @@ textarea.form-control::-webkit-input-placeholder,
     height: 106%;
   }
 }
+
+.gfm-embed-about {
+  width: 350px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.head-holder .gfm-link {
+  display: inline-block;
+  background: linear-gradient(180deg,#fdb933,#f7933f);
+  margin-top: 18px;
+  text-decoration: none;
+  color: black;
+  font-family: rubik,sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  border: 2px solid #e57a00;
+  padding: 5px 18px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border-radius: 3px;
+}
+
+.head-holder .gfm-link:hover {
+  background: linear-gradient(180deg, #e08900, #d16500);
+  color: white;
+  border: 2px solid #c15500;
+}
