@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://purduesigbots.com"
 title = "Purdue Sigbots"
-# post pagination
+[pagination]
 paginate = "6"
 # post excerpt
 summaryLength = "10"

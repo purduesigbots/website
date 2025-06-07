@@ -21,23 +21,23 @@
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
-          <h1 class="introduction">{{ .Title | markdownify | emojify }}</h1>
-          <div class="animated-text">
-            <strong class="cd-headline clip">
-              <span class="cd-words-wrapper">
-                {{ range $index, $elements:= .Params.occupations }}
-                <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
-                {{ end }}
-              </span>
-            </strong>
-          </div>
-          {{ with .Params.button }}
-          {{ if .enable }}
-          <a class="hireMe" href="{{ .link | relURL}}">{{ .label }}</a>
-          <a class="live" target="_blank" href="https://www.youtube.com/@purduesigbots/live">We're Live!</a>
-          <a class="gfm-link" href="https://www.gofundme.com/f/keep-sigbots-on-top-fund-their-robots">Donate Now!</a>
-          {{ end }}
-          {{ end }}
+        <h1 class="introduction">{{ .Title | markdownify | emojify }}</h1>
+        <div class="animated-text">
+          <strong class="cd-headline clip">
+            <span class="cd-words-wrapper">
+              {{ range $index, $elements:= .Params.occupations }}
+              <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
+              {{ end }}
+            </span>
+          </strong>
+        </div>
+        {{ with .Params.button }}
+        {{ if .enable }}
+        <a class="hireMe" href="{{ .link | relURL}}">{{ .label }}</a>
+        <a class="live" target="_blank" href="https://www.youtube.com/@purduesigbots/live">We're Live!</a>
+       <!-- <a class="gfm-link" href="https://www.gofundme.com/f/keep-sigbots-on-top-fund-their-robots">Donate Now!</a> -->
+        {{ end }}
+        {{ end }}
         </div>
       </div>
     </div>
@@ -225,7 +225,7 @@
       {{ with .Params.demos }}
       {{ if .enable }}
       <div class="col-lg-6 col-sm-6 col-11 demos wow fadeInUp" data-wow-duration="1.5s">
-        <center><div class="gfm-embed gfm-embed-about" data-url="https://www.gofundme.com/f/keep-sigbots-on-top-fund-their-robots/widget/medium?sharesheet=fundraiser story&attribution_id=sl:0c246d1f-9a01-4823-8162-92a542b04319"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script></center>
+       <!-- <center><div class="gfm-embed gfm-embed-about" data-url="https://www.gofundme.com/f/keep-sigbots-on-top-fund-their-robots/widget/medium?sharesheet=fundraiser story&attribution_id=sl:0c246d1f-9a01-4823-8162-92a542b04319"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script></center> -->
         <h3>{{ .title }}</h3>
         <div class="demos-progress-bar">
           {{ range .demos_list }}
