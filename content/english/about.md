@@ -1,5 +1,5 @@
 ---
-title : "ABOUT US!"
+title : "ABOUT US"
 image : "images/blog/blrs2-hero2.jpg"
 # button
 button:
@@ -96,4 +96,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Purdue ACM SIGBots is Purdue University’s VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past fourteen seasons— for those of you counting, that’s every season since the club has been around!
+Purdue ACM SIGBots is Purdue University’s VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past 15 seasons— for those of you counting, that’s every season since the club has been around!
