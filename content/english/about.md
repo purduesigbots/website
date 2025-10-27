@@ -13,6 +13,9 @@ experience:
   title : "Past Seasons"
   experience_list:
     # experience item loop
+    - name : "High Stakes"
+      duration : "2024-2025"
+      content : "This season we won worlds!"
     - name : "Over Under"
       duration : "2023-2024"
       content : "This season, we set the goal of having a larger community impact. We started by expanding our service with the TechPoint Foundation For Youth and their coding help hotline for k-12 students. We also hosted 2 VRC competitions bringing a combined 900 students onto Purdue’s campus as well as our VexU competition being again the world’s largest with 30 teams from across North America. On the competition side, we moved back to 2 teams due to funding limitations but each team was stronger than in years past. We focused on uniform design elements & processes across the two teams as well as on our engineering design process. This culminated in our attendance at the World Championship where BLRS2 took home the Design Award, 10th in skills, and became the WORLD CHAMPIONS."
