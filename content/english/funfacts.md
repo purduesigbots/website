@@ -5,7 +5,7 @@ funfacts:
 # funfacts item loop
 - name : "WORLDS' AWARDS"
   image : "images/icons/happy.png"
-  count : "15"
+  count : "15+"
 
 # funfacts item loop
 - name : "PROS INSTALLS"
@@ -18,7 +18,7 @@ funfacts:
   count : "25,000+"
   
 # funfacts item loop
-- name : "CUMULATIVE YEARS OF EXPERIENCE"
+- name : "YEARS OF ROBOTICS EXPERIENCE"
   image : "images/icons/coffee.png"
   count : "300+"
 
